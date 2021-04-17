@@ -1,0 +1,16 @@
+
+#freemarker相关的配置
+spring:
+  freemarker:
+    cache: false
+    charset: UTF-8
+    template-loader-path: classpath:/templates
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: true
+    suffix: .ftl
+#启动的端口
+server:
+  port: 8090
